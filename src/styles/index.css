@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.myButton {
+    display: inline;
+    background-color: transparent;
+    border: none;
+    float: right;
+    color: transparent;
+    width: 99px;
+    height: 33px;
+}
+
+.myButton:hover {
+    display: inline;
+    color: gray;
+    width: 99px;
+    height: 33px;
+}
+
+.myInput {
+    border: none;
+}
+
+.myInput:focus {
+    border: none;
+}
+
+.heading {
+    color: rgb(123, 117, 110)
+}
